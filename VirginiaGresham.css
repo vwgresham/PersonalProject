@@ -1,0 +1,165 @@
+/** General Information (fonts, etc.)**/
+
+html, body {
+	height: 100%;
+}
+
+@font-face {
+	font-family: MissionGothic
+	src: url(MissionGothicThin.otf);
+}
+
+@font-face {
+	font-family: AbrahamLincoln;
+	src: url(AbrahamLincoln.ttf);
+}
+
+/** Bacground Image **/
+
+body {
+	background-image: url(Railroad.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: black;
+	font-family: AbrahamLincoln;
+	z-index: 10;
+}
+
+/** Landing Page Design **/
+
+#Giant img {
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 10%;
+}
+
+#EnterMe {
+	z-index: 50;
+	float: left;
+	margin-left: 43%;
+	margin-right: 43%;
+	font-family: AbrahamLincoln
+}
+
+#EnterMe a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#EnterMe a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#EnterMe a:hover {
+	font-style: italic;
+}
+
+/** Navigation Bar Design **/
+
+#mainNav {
+	float: left;
+	margin: 0 0 5% 0;
+	text-align: left;
+	display: block;
+	list-style: none;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	font-size: 30px;
+	vertical-align: middle;
+	font-family: AbrahamLincoln
+}
+
+nav li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+nav li .icon  {
+	padding: 3px;
+	opacity: .5;
+}
+
+nav li .icon:hover {
+	opacity: 1;
+}
+
+/** Main Content Design **/
+
+/** The following will apply to most pages; keeps look of two columns **/
+
+.main {
+	display: inline-block;
+} 
+
+.title {
+	text-align: left;
+	padding-left: 5%;
+}
+
+.Type1 {
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	font-size: 20px;
+	word-spacing: 1px;
+}
+
+/* The following two sections are specific to the about page */
+
+.container {
+	position: absolute;
+	background-color: white;
+	opacity: .8;
+	text-align: left;
+	margin-left: 43.5%;
+	margin-right: 22.5%;
+	width: 40%;
+	display: block;
+}
+
+.profile-photo img {
+	max-width: 207px;
+	float: right;
+	position: absolute;
+	display: block;
+	margin-left: 22.5%;
+}
+
+/* The following two sections are specific to the inspiration page */
+
+.containerSpotify {
+	position: absolute;
+	background-color: white;
+	opacity: .8;
+	text-align: left;
+	margin-left: 53%;
+	margin-right: 22.5%;
+	width: 30%;
+	display: block;
+
+}
+
+.spotify iframe {
+	float: right;
+	position: absolute;
+	display: block;
+	margin-left: 22.5%;
+}
