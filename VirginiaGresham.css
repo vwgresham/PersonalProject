@@ -163,3 +163,74 @@ nav li .icon:hover {
 	display: block;
 	margin-left: 22.5%;
 }
+
+/* THe following sections are specific to the art&design page */
+
+.containerGallery {
+	position: absolute;
+	background-color: white;
+	opacity: 1;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	display: block;
+	height: 60%;
+	bottom: 10%;
+	top: 30%;
+}
+
+.imageGallery {
+	margin: 10px auto;
+	position: relative;
+	margin: 20px auto;
+	position: relative;
+	display: block;
+}
+
+.imageGallery img {
+	text-align: center;
+	position: absolute;
+	z-index: 30;
+	opacity: 0;
+	padding: 4% 30% 30%;
+}
+
+.imageGallery img:first-child {
+	left: 0;
+	opacity: 1;
+}
+
+.imageGallery img:target {
+	left: 0;
+	z-index: 60;
+	opacity: 1
+}
+
+.imageControl {
+	margin-top: 50%;
+}
+
+.imageControl a:link {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	background: black;
+	opacity: .6;
+	padding: 4px;
+	margin: 2px;
+}
+
+.imageControl a:visited {
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 4px;
+}
+
+.imageControl a:hover {
+	text-decoration: none;
+	color: white;
+	background: black;
+	opacity: 1;
+}
