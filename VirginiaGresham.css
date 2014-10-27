@@ -5,7 +5,7 @@ html, body {
 }
 
 @font-face {
-	font-family: MissionGothic
+	font-family: MissionGothic;
 	src: url(MissionGothicThin.otf);
 }
 
@@ -38,7 +38,7 @@ body {
 	float: left;
 	margin-left: 43%;
 	margin-right: 43%;
-	font-family: AbrahamLincoln
+	font-family: AbrahamLincoln;
 }
 
 #EnterMe a:link {
@@ -74,7 +74,7 @@ nav li {
 	padding-top: 2%;
 	font-size: 30px;
 	vertical-align: middle;
-	font-family: AbrahamLincoln
+	font-family: AbrahamLincoln;
 }
 
 nav li a:link {
@@ -174,19 +174,17 @@ nav li .icon:hover {
 	text-align: center;
 	margin-left: 20%;
 	margin-right: 20%;
+	margin-bottom: 5%;
 	width: 60%;
 	display: block;
-	height: 60%;
-	bottom: 10%;
-	top: 30%;
 }
 
 .imageGallery {
-	margin: 10px auto;
+	margin: 60px auto;
 	position: relative;
-	margin: 20px auto;
-	position: relative;
-	display: block;
+	display: block;	
+	padding: 10% 30% 30% 4%;
+	overflow: hidden;
 }
 
 .imageGallery img {
@@ -194,7 +192,14 @@ nav li .icon:hover {
 	position: absolute;
 	z-index: 30;
 	opacity: 0;
-	padding: 4% 30% 30%;
+	height: 250px;
+	top: 0;
+
+
+	transition: all linear 1s;
+ 	-o-transition: all linear 1s;
+ 	-moz-transition: all linear 1s;
+ 	-webkit-transition: all linear 1s;
 }
 
 .imageGallery img:first-child {
@@ -205,12 +210,14 @@ nav li .icon:hover {
 .imageGallery img:target {
 	left: 0;
 	z-index: 60;
-	opacity: 1
+	opacity: 1;
 }
 
 .imageControl {
-	margin-top: 50%;
 	z-index: 50;
+	text-align: middle;
+	position: absolute;
+	bottom: 10%;
 }
 
 .imageControl a:link {
