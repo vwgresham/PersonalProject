@@ -101,9 +101,26 @@ nav li .icon:hover {
 	opacity: 1;
 }
 
+/** Footer Design **/
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background: black;
+   color: white;
+   opacity: .9;
+   border-top: 2px solid;
+   border-color: #4D4D4D;
+   text-align: center;
+}
+
+
 /** Main Content Design **/
 
-/** The following will apply to most pages; keeps look of two columns **/
+/* The following will apply to most pages; keeps look of two columns */
 
 .main {
 	display: inline-block;
@@ -274,5 +291,6 @@ nav li .icon:hover {
 .imageGallery .w210 {
 	padding-left: 53.5%;
 }
+
 
 
