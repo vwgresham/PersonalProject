@@ -165,7 +165,7 @@ nav li .icon:hover {
 	margin-left: 22.5%;
 }
 
-/* THe following sections are specific to the art&design page */
+/* THe following sections are specific to the art&design page and the mechanics of the image slider*/
 
 .containerGallery {
 	position: absolute;
@@ -190,6 +190,7 @@ nav li .icon:hover {
 .imageGallery img {
 	text-align: center;
 	position: absolute;
+	padding-bottom: 10%;
 	z-index: 30;
 	opacity: 0;
 	height: 250px;
@@ -213,11 +214,15 @@ nav li .icon:hover {
 	opacity: 1;
 }
 
+.containerControl {
+	margin-left: 35%;
+}
+
 .imageControl {
 	z-index: 50;
 	text-align: middle;
 	position: absolute;
-	bottom: 10%;
+	bottom: 6%;
 }
 
 .imageControl a:link {
@@ -243,3 +248,36 @@ nav li .icon:hover {
 	background: black;
 	opacity: 1;
 }
+
+/* The following sections center each of the pictures within the gallery */
+/** Need to find a more efficient way to do this **/
+
+.imageGallery .w330 {
+	padding-left: 37%;
+}
+
+.imageGallery .w160 {
+	padding-left: 58%;
+}
+
+.imageGallery .w300 {
+	padding-left: 42%;
+}
+
+.imageGallery .w370 {
+	padding-left: 32%;
+}
+
+.imageGallery .w180 {
+	padding-left: 56%;
+}
+
+.imageGallery .w470 {
+	padding-left: 20%;
+}
+
+.imageGallery .w210 {
+	padding-left: 53.5%;
+}
+
+
