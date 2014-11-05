@@ -145,6 +145,7 @@ nav li .icon:hover {
 
 .main {
 	display: inline-block;
+	width: 90%;
 } 
 
 .title {
@@ -175,7 +176,7 @@ nav li .icon:hover {
 }
 
 .profile-photo img {
-	max-width: 207px;
+	max-width: 18%;
 	float: right;
 	position: absolute;
 	display: block;
@@ -186,18 +187,42 @@ nav li .icon:hover {
 
 .containerSpotify {
 	position: absolute;
-	background-color: white;
-	opacity: .8;
+	opacity: 1;
 	text-align: left;
 	margin-left: 44%;
 	margin-right: 22.5%;
 	width: 34.5%;
 	display: block;
+}
 
+.contentI {
+	opacity: .8;
+	background-color: white;
+	width: 100%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.parentSpotify {
+	position: absolute;
+	opacity: 1;
+	margin-left: 44%;
+	margin-right: 22.5%;
+	width: 34.5%;
+	display: block;
 }
 
 .spotify iframe {
 	float: right;
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin-top: 10px;
+}
+
+.soundcloud iframe {
+	float: right;
+	width: 18%;
 	position: absolute;
 	display: block;
 	margin-left: 22.5%;
