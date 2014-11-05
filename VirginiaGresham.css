@@ -63,8 +63,9 @@ body {
 	text-align: left;
 	display: block;
 	list-style: none;
-	width: 95%;
-	padding-left: 10%;
+	width: 90%;
+	padding-left: 6%;
+	padding-right: 10%;
 }
 
 nav li {
