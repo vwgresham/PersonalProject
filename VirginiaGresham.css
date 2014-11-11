@@ -14,7 +14,7 @@ html, body {
 	src: url(AbrahamLincoln.ttf);
 }
 
-/** Bacground Image **/
+/** Background Image **/
 
 body {
 	background-image: url(Railroad.jpg);
@@ -30,6 +30,7 @@ body {
 #Giant img {
 	margin-left: 40%;
 	margin-right: 40%;
+	width: 20%;
 	margin-top: 10%;
 }
 
@@ -66,6 +67,10 @@ body {
 	width: 90%;
 	padding-left: 6%;
 	padding-right: 10%;
+}
+
+#logo img {
+	width: 120px;
 }
 
 nav li {
@@ -118,13 +123,13 @@ nav li .icon:hover {
 	text-align: left;
 	display: block;
 	list-style: none;
-	margin-left: 40%;
+	margin-left: 36%;
 }
 
 #mainFooter li {
 	display: inline-block;
 	padding-left: 5%;
-	padding-right: 4%;
+	padding-right: 2%;
 	vertical-align: middle;
 	font-family: AbrahamLincoln;
 }
@@ -151,6 +156,7 @@ nav li .icon:hover {
 .title {
 	text-align: left;
 	padding-left: 5%;
+	font-size: 32px;
 }
 
 .Type1 {
@@ -296,11 +302,6 @@ nav li .icon:hover {
 .imageControl a:visited {
 	text-decoration: none;
 	color: white;
-	font-size: 20px;
-	background: black;
-	opacity: .6;
-	padding: 4px;
-	margin: 2px;
 }
 
 .imageControl a:hover {
@@ -362,4 +363,123 @@ nav li .icon:hover {
 .bodyCredits a:link, a:visited {
 	color: black;
 }
+
+/** Media Queries Begin Here **/
+
+/* For smaller sized browsers */
+
+@media (max-width: 1050px) and (min-width: 760px) {
+	#EnterMe a:link {
+		font-size: 26px;
+	}
+
+	#mainNav {
+		margin-bottom: 3%;
+		margin-left: 10%;
+	}
+
+	#logo img {
+		width: 80px;
+	}
+
+	nav li {
+		font-size: 23px;
+		padding-left: 3%;
+	}
+
+	nav li .icon {
+		padding: 2px;
+		width: 20px;
+	}
+
+	.Type1 {
+		font-size: 16px;
+	}
+
+	.title {
+		font-size: 24px;
+	}
+
+	#mainFooter li {
+		font-size: 12px;
+	}
+
+	.containerGallery {
+		font-size: 12px;
+	}
+
+	.imageControl a:link {
+		font-size: 14px;
+		padding: 3px;
+		margin: 1px;
+	}
+
+	.imageGallery img {
+		height: 190px;
+	}
+
+	.soundcloud iframe {
+		height: 55%;
+	}
+}
+
+@media (max-width: 760px) {
+	#EnterMe a:link {
+		font-size: 20px;
+	}
+
+	#mainNav {
+		margin-bottom: 2%;
+		margin-left: 6%;
+	}
+
+	#logo img {
+		width: 60px;
+	}
+
+	nav li {
+		font-size: 21px;
+		padding-left: 2%;
+	}
+
+	nav li .icon {
+		padding: 2px;
+		width: 18px;
+	}
+
+	.Type1 {
+		font-size: 14px;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+
+	#mainFooter li {
+		font-size: 12px;
+	}
+
+	.containerGallery {
+		font-size: 10px;
+	}
+
+	.imageControl a:link {
+		font-size: 13px;
+		padding: 2px;
+		margin: 1px;
+	}
+
+	.imageGallery img {
+		height: 150px;
+	}
+
+	.soundcloud iframe {
+		height: 55%;
+	}
+}
+
+
+
+
+
 
